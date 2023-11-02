@@ -1,0 +1,140 @@
+@media(min-width: 38em){
+    .top-nav a{
+        font-size: 1em;
+    }
+    .top-content{
+        padding: 12em 20em 5em 2em;
+    }
+
+}
+@media(min-width: 48.75em){
+    .form{
+        height: 1480px;
+    }
+    .botao{
+        display: none;
+    }
+    .top-header{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .img_btn{
+        align-items: start;
+    }
+    .top-content{
+        padding: 12em 30em 6em 2em;
+        font-weight: bolder;
+        margin:0;
+    }
+    .top-content-title{
+        max-width: max-content;
+        align-items: center;
+        margin: auto;
+    }
+    .top-nav{
+        display: block;
+        width: 35em;
+        align-items: end;
+        border-top: none;
+    }
+    .col-1-4{
+        width: 44%;
+        margin: 3%;
+        float: right;
+
+    }
+    .col-1-2{
+        width: 48%;
+        margin: 1%;
+        float: left;
+    }
+    .residencial{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        border-radius: 20px;
+        margin-top: 1em;
+    }
+    .map{
+        width: 45em;
+    }
+
+    .section-qrcode{
+        margin: 0.5%;
+    }
+
+}
+
+@media(min-width: 60.5em){
+    .top-content{
+        background-image: url('../imagens/bg_banner.jpg');
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 16em 38em 10em 2em;
+        font-weight: bolder;
+    }
+    .main-content{
+        padding: 5.5em 3em 2em 2em;
+    }
+    .map{
+        width: 48em;
+    }
+    .residencial{
+        margin-top: 0;
+    }
+    .section-qrcode{
+        margin: 0.5%;
+        margin-top: 2em;
+    }
+
+}
+
+@media screen and (min-width: 70em){
+    .top-content{
+        background-image: url('../imagens/bg_banner.jpg');
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 14em 55em 10em 2em;
+        font-weight: bolder;
+        height: 10em;
+        margin: 0;
+    }
+    .top-content .button{
+        font-size: 1.5em;
+    }
+    .main-content{
+        padding: 5.5em 9em 2em 4em;
+
+    }
+    .main-content-article p{
+        letter-spacing: 0.1em;
+    }
+
+    .col-1-4{
+        width: 22%;
+        margin: 1.5%;
+    }
+    .col-1-2{
+        width: 48%;
+        margin: 1%;
+        float: left;
+    }
+    .middle-content{
+        padding: 2em 2em 0.5em 2em;
+    }
+    .map{
+        width: 50em;
+    }
+    .residencial{
+        width: 70%;
+        margin: 0;
+    }
+    .section-qrcode{
+        margin: 0.5%;
+    }
+
+}
