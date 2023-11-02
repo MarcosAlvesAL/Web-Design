@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+/*Smartphones em Retrato (Portrait)*/
+nav {
+    background-color: white;
+    height: 3.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-height: 3em; 
+}
+.banner {
+    background-image: url('../imgs/pxfuel.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#download-form {
+    background-color: #f0f0f0;
+    padding: 1em 1em 2em 1em;
+    border-radius: 5px;
+    text-align: center;
+}
+.baixar_button{
+    background-image: url('../imgs/pxfuel.jpg');
+    background-size: cover;
+    color: white;
+    width: 5em;
+}
+.url-download{
+    width: 15em;
+}
+.instrucao{
+    list-style-position: inside;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../imgs/pxfuel.jpg');
+    background-size: cover;
+    color: white; 
+    text-align: center;
+    padding: 20px;
+}
+footer p {
+    margin: 5px 0; /* Espaçamento entre os parágrafos */
+}
+footer p:first-child { /*aviso de direitos autorais */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer p:last-child { /*data de atualização */
+    font-size: 12px;
+}
+/*FIM -- Smartphones em Retrato (Portrait)*/
+
+
+
+/* Até 480px de largura: Smartphones em Paisagem (Landscape) */
+@media (max-width: 480px) {
+
+}/* Até 480px de largura: Smartphones em Paisagem (Landscape) */
+
+
+
+/* De 481px até 767px de largura: Tablets e Dispositivos Menores em Paisagem (Landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+
+}/* De 481px até 767px de largura: Tablets e Dispositivos Menores em Paisagem (Landscape) */
+
+
+
+/* De 768px até 1023px de largura:Tablets e Desktops Pequenos */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+}/* De 768px até 1023px de largura:Tablets e Desktops Pequenos */
+
+
+
+/* De 1024px até 1199px de largura: Desktops Médios e Maiores */
+@media (min-width: 1024px) and (max-width: 1199px) {
+    
+}/* De 1024px até 1199px de largura: Desktops Médios e Maiores */
+
+
+
+/* De 1200px até 1599px de largura: Desktops Largos e Telas Maiores */
+@media (min-width: 1200px) and (max-width: 1599px) {
+
+} /* De 1200px até 1599px de largura: Desktops Largos e Telas Maiores */
+
+
+
+/*1600px ou mais de largura: */
+@media (min-width: 1600px) {
+    
+}/*1600px ou mais de largura: */
