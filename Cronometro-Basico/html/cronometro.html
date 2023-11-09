@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> Cronometro </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <meta name="author" content="Daniel">
+        <meta name="description" content="Simples Cronometro">
+        <meta name="keywords" content="html5, tecnologia">
+        
+        <link rel="stylesheet" href="style/normalize.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- Fontes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <script src="../javascript/cronom.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Cronometro</h1>
+            <div class="timer">
+                <div class="time" id="minutes">00</div>
+                <div class="separator">:</div>
+                <div class="time" id="seconds">00</div>
+                <div class="separator">:</div>
+                <div class="time" id="milliseconds">000</div>
+            </div>
+            <!-- Botão de Play  -->
+            <div class="buttons">
+                <button class="btn" id="startBtn">Iniciar</button>
+                <button class="btn" id="pauseBtn">Pausar</button>
+                <button class="btn" id="resumeBtn">Continuar</button>
+                <button class="btn" id="restartBtn">Reiniciar</button>
+            </div>
+        </div>
+
+    </body>
+</html>

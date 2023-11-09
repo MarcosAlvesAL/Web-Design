@@ -1,0 +1,68 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.container h1{
+    color: #175cff
+}
+.timer{
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: #333;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: #172853;
+    min-width: 90px;
+}
+.separator {
+    padding:0 10px;
+}
+#milliseconds{
+    font-size: 32px;
+    color: rgb(74, 71, 71);
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+#startBtn{
+    background-color: #175cff;
+    color: #FFF;
+}
+#pauseBtn, #resumeBtn{
+    display: none;
+}
+#pauseBtn{
+    background-color: rgb(176, 65, 65);
+    color: white;
+}
+#resumeBtn{
+    background-color: #175cff;
+    color: #FFF;
+}
