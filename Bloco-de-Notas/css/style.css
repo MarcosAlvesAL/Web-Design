@@ -1,0 +1,28 @@
+html, body{
+    background: linear-gradient(to bottom, rgb(52, 150, 157), rgb(82, 232, 242));    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.conteiner-box{
+    width: 35%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+    box-shadow: 0 0 2px black;    
+}
+.box-card{
+    display: inline-flex;
+    font-size: 1em;
+    text-decoration: none;
+    list-style: none;
+}
+.card{
+    margin: 0.5em;
+}
