@@ -4,25 +4,90 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 body{
     display: flex;
     justify-content:center;
     align-items: center;
 }
+i{
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+h6{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+}
 .conteiner-box{
     width: 35%;
     height: 45%;
     background-color: rgb(255, 255, 255);
     border-radius: 1px;
-    box-shadow: 0 0 2px black;    
+    box-shadow: 0 0 2px black; 
+    overflow: auto;   
+}
+.box{
+    width: 100%;
 }
 .box-card{
     display: inline-flex;
     font-size: 1em;
     text-decoration: none;
     list-style: none;
+    border-bottom: solid 1px rgb(240, 239, 239);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.box-card:hover{
+    background-color: rgb(217, 214, 214);
 }
 .card{
-    margin: 0.5em;
+    margin:0;
+    padding: 10% 0;
 }
+.box-card-img{
+    width: 85%;
+    border-radius: 50%;
+    margin: 0;
+
+}
+.box-card-ul{
+    width: 25%;
+    margin: 0;
+    padding: 0.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.box-card-name{
+    width: 59%;
+    font-size: 0.8em;
+}
+.box-card-icon{
+    width: 7%;
+    font-size: 1em;
+    padding: 0 0.2em 0 0;
+    display: none;
+}
+.box-card:hover .box-card-icon{
+    display: block;
+}
+
+
+.icon-image{
+    width: 70%;
+    opacity: 0.6;
+}
+
+
