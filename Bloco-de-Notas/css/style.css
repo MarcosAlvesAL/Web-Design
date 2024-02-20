@@ -33,7 +33,7 @@ p{
     background-color: rgb(255, 255, 255);
     border-radius: 1px;
     box-shadow: 0 0 2px black; 
-    overflow: auto;   
+    overflow-y: auto;   
 }
 .box{
     width: 100%;
@@ -86,7 +86,7 @@ p{
 
 
 .icon-image{
-    width: 70%;
+    max-width: 70%;
     opacity: 0.6;
 }
 
