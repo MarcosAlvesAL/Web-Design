@@ -48,6 +48,7 @@ p{
     padding: 0;
     margin: 0;
     align-items: center;
+    box-sizing: border-box;
 }
 .box-card:hover{
     background-color: rgb(217, 214, 214);
