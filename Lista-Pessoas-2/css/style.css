@@ -28,14 +28,17 @@ p{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-around;
-    padding: 4em;
+    justify-content: space-between;
+    padding: 2em 16em;
     box-sizing: border-box;
     
 }
 .box{
-    width: 30%;
+    width: 32%;
     margin-bottom: 1em;
+    border-radius: 3%;
+    overflow: hidden;
+    box-shadow: 0 0 2px black; 
 }
 .box-card{
     font-size: 1em;
@@ -52,21 +55,51 @@ p{
 }
 .box-icon{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
+    text-align: center;
     list-style: none;
     width: 100%;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
-.box-card-img{
-    width: 25%;
-    border-radius: 50%;
-    margin: 0;
-    transform: translateY(65px);
+.box-card-icon{
+    width: 50%;
+    background-color: rgb(231, 231, 231);
+    font-size: 1em;
+    padding: 0.5em 0;
 
 }
+.icon-image{
+    padding: 0;
+    margin: 0;
+    width: 14%;
+}
+.box-card-icon:hover .icon-image{
+    cursor: pointer;
+}
+.card1{
+    text-align: right;
+    padding-right: 0.6em;
+}
+.card2{
+    text-align: left;
+    padding-left: 0.6em;
+
+}
+
+.box-card-img{
+    width: 30%;
+    border-radius: 50%;
+    margin: 0;
+    transform: translateY(70px);
+    border: 0.5px solid white;
+
+}.box-card-img:hover{
+    border: 0.5px solid  rgb(82, 232, 242);
+    cursor: pointer;
+}
+
 .box-card-ul{
     max-width: 100%;
     width: 100%;
@@ -80,23 +113,15 @@ p{
 
 }
 .box-card-name{
-    padding: 3em 0;
+    padding: 4em 0 2.5em 0;
     width: 100%;
     font-size: 0.8em;
     background-color: white;
-}
-.box-card-icon{
-    width: 49%;
-    background-color: gray;
-    font-size: 1em;
-    padding: 0 0.2em 0 0;
+    text-align: center;
 }
 
 
-.icon-image{
-    max-width: 70%;
-    opacity: 0.6;
-    width: 7%;
-}
+
+
 
 
