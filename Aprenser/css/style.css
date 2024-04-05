@@ -162,3 +162,65 @@ h3{
     width: 14em;
     margin: 1.6em 0 0 0;
 }
+.article-conteiner{
+    background-color: #16155e;
+    color: white;
+    width: 100%;
+    height: 300px;
+    padding: 2em 2em 0em 2em;
+    box-sizing: border-box;
+
+    background-size: 35%;
+    margin: auto;
+}
+.article-conteiner h3{
+    color: rgb(234, 224, 224);
+    font-size: 2.3em;
+    padding: 0 0 1em 0;
+
+}
+.escola{
+    box-sizing: border-box;
+    height: 100%;
+    background-image: url(../imagens/nossa-escola.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+.nos-texto{
+    padding: 0em 2em 0em 34em;
+    font-size: 12px;
+    color: rgb(234, 224, 224);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.map-conteiner{
+    margin-top: 2em;
+    width: 80%;
+    margin: auto;
+    
+}
+.endereço{
+    padding: 1em;
+    text-align: center;
+}
+.endereço h3{
+    padding: 1em;
+    margin: auto;
+}
+.endereço p{
+    text-align: right;
+    color: rgb(70, 68, 68);
+    font-size: 10px;
+}
+.end{
+    width: 100%;
+}
+footer{
+    background-color: rgb(70, 68, 68);
+    padding: 1em;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 2em;
+}
