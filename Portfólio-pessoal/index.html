@@ -72,11 +72,40 @@
                     <img src="../Portfólio-pessoal/imgs/teste.png" class="a-foto" alt="Marcos Alves"></a>
                 </section> 
                 <section class="article-text">
-                    <p>Olá! Meu nome é Marcos Alves e sou um entusiasta de design web iniciante. Estou apaixonado por aprender novas tecnologias e criar belas e funcionais experiências na web.</p>
-                    <p>Neste site, compartilho um pouco sobre mim, minhas habilidades e projetos em que estou trabalhando.</p> 
+                    <p>Olá! Sou Marcos Alves, um entusiasta de tecnologia que iniciou sua jornada no mundo da programação em outubro de 2022 ao iniciar o curso de analise e desenvolvimento de sistemas. Desde então, tenho mergulhado de cabeça nesse ambiente desafiador. </p>
+                    <p>Durante meu curso, fui atraído pela magia de criar interfaces atraentes e funcionais.</p>
+                    <p>Estou ansioso para continuar minha jornada de aprendizado e crescimento, sempre buscando novos desafios e oportunidades para expandir meu conhecimento.</p>                          
+                    <p>Vamos criar juntos algo incrível?</p>    
                 </section>
             </div>  
-        </article>    
+        </article>
+        <button onclick="mostrarConteudo(0)">Ponto 1</button>
+        <button onclick="mostrarConteudo(1)">Ponto 2</button>
+        <button onclick="mostrarConteudo(2)">Ponto 3</button>
+
+        <div class="conteudo" id="conteudo1">
+        Conteúdo 1
+        </div>
+        <div class="conteudo" id="conteudo2">
+        Conteúdo 2
+        </div>
+        <div class="conteudo" id="conteudo3">
+        Conteúdo 3
+        </div>
+
+<script>
+function mostrarConteudo(numero) {
+  // Esconder todos os conteúdos
+  var conteudos = document.getElementsByClassName("conteudo");
+  for (var i = 0; i < conteudos.length; i++) {
+    conteudos[i].style.display = "none";
+  }
+  
+  // Mostrar o conteúdo correspondente ao botão clicado
+  var conteudoSelecionado = document.getElementById("conteudo" + (numero + 1));
+  conteudoSelecionado.style.display = "block";
+}
+</script>    
     </main>
 
     <footer>

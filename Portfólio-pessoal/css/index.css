@@ -35,7 +35,9 @@ li{
     justify-content: space-around;
     gap: 1em;
 }
-
+.conteudo {
+    display: none;
+  }
 
 nav {
     padding: 10px;
@@ -127,15 +129,15 @@ main{
     }
   }
 .about{    
-    padding: 2em 8em;
+    padding: 10em 4em;
+    height: 100vh;
 }
 .sobre-mim{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1em;
-    background-color: rgb(56,90,100);
-    color: white;
+    color: rgb(56,90,100);
 }
 .banner-text p{
     font-size: 1.5em;
@@ -144,6 +146,9 @@ main{
     width: 75%;
     text-align: left;
     padding: 1em;
+}
+.article-text p{
+    margin: 1em;
 }
 .article-foto{
     width: 25%;
