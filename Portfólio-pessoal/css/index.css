@@ -113,13 +113,7 @@ main{
     animation: swing .6s infinite alternate;
 }
 
-.banner-icon{
-    display: flex;
-    width: 50%;
-    gap: 1em;
-    text-align: right;
-    justify-content: right;
-}
+
 .icon{
     width: 6.5%;
 }
@@ -188,8 +182,8 @@ main{
 }
 .container-formacao-geral{
     margin: 2em 0;
-    height: 34em;
-    border-bottom: solid 1px red;
+    height: 36em;
+
 }
 .ref-title{
     color: rgb(56,90,100);
@@ -223,9 +217,9 @@ main{
     top: -7px;
     width: 18px;
     height: 18px;
-    margin-left: 10%;
+    margin-left: 9%;
     border-radius: 50%;
-    background-color: rgb(0,147,128);
+    background-color: rgb(56,90,100);
     z-index: 1;
 }
 .cont-curso::after{
@@ -234,14 +228,129 @@ main{
     top: 0;
     left: 0;
     width: 100%;
-    height: 5px;
-    background-color: rgb(0,147,128);
+    height: 3px;
+    background-color: rgb(56,90,100);
     z-index: 0;
 }
 .cont-curso{
-    width: 25%;
+    width: 24%;
+    border: solid 0.5px rgb(56,90,100);
+    margin: 1em 1.5%;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
+.curso-title{
+    font-size: 0.8em;
+    text-align: center;
+    background-color: rgb(0,147,128);
+    color: white;
+    height: 5em;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+
+}
+.curso-title h2{
+    margin: 0;
+    padding: 0.5em;
+}
+.curso-text{
+    color: rgb(56,90,100);
+}
+.conteiner-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 4em;
+    text-align: center;
+}
+.icon2{
+    width: 15%;
+
+}
+.projetos-recentes-conteiner{
+    height: 36em;
+}
+.card {
+    max-width: 300px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+  }
+  
+  .card a {
+    text-decoration: none
+  }
+  
+  .content {
+    padding: 1.1em;
+  }
+  
+  .image {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(56,90,100);
+  }
+  
+  .title {
+    color: #111827;
+    font-size: 1.125em;
+    line-height: 1.75em;
+    font-weight: 600;
+  }
+  
+  .desc {
+    margin-top: 0.5em;
+    color: #6B7280;
+    font-size: 0.875em;
+    line-height: 1.25em;
+  }
+  
+
+  .conteiner-contato {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form-group textarea {
+    height: 100px;
+}
+.form-group button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}
+ 
+  
 footer {
     background-color: rgb(55,52,53);
     color: #fff;

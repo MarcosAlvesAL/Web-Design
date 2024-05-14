@@ -57,11 +57,6 @@
                 <div class="scrow-div"><img src="imgs/scroll.png" class="scrow-icon"></div>
             </div>
             
-            <div class="banner-icon">
-
-                <img src="imgs/icon-linkedin.png" class="icon">
-
-            </div> 
         </div>
 
 
@@ -93,76 +88,113 @@
                 <div class="cont-formacao">         
                     <article class="cont-curso">
                         <div class="curso-title"><h2>Fundamentos da Lógica de Programação</h2></div>
-                        <div class="curso-text"><p>Fundação Bradesco</p> <p>10/2022</p></div>            
+                        <div class="curso-text">
+                            <ul>
+                                <li><p>Fundação Bradesco</p></li>
+                                <li><p>10/2022</p></li>
+                            </ul>
+                        </div>            
                     </article>
 
                     <article class="cont-curso">
                         <div class="curso-title"><h2>Introdução a Programação em Python</h2></div>
-                        <div class="curso-text"><p>Udemy</p> <p>11/2022</p></div>            
+                        <div class="curso-text">
+                            <ul>
+                                <li><p>Udemy</p></li>
+                                <li><p>11/2022</p></li>
+                            </ul>
+                        </div>                                     
                     </article>
 
                     <article class="cont-curso">
-                        <div class="curso-title"><h2>Curso - Web Frontend Fundamentos</h2></div>
-                        <div class="curso-text"><p>SerFrontEnd</p> <p>Html, Css, Introdução ao JavaScript (Atualmente)</p></div>            
+                        <div class="curso-title"><h2>Web Frontend Fundamentos</h2></div>
+                        <div class="curso-text">
+                            <ul>
+                                <li><p>SerFrontEnd</p></li>
+                                <li><p>Html, Css, Introdução ao JavaScript (Atualmente)</p></li>
+                            </ul> 
+                        </div>            
                     </article>
 
                     <article class="cont-curso">
-                        <div class="curso-title"><h2>Cursando Tecnologia em Análise e Desenvolvimento de Sistemas</h2></div>
-                        <div class="curso-text"><p>Uninter</p> <p>10/2022 - Atualmente</p></div>            
+                        <div class="curso-title"><h2>Análise e Desenvolvimento de Sistemas</h2></div>
+                        <div class="curso-text">
+                            <ul>
+                                <li><p>Uninter</p></li>
+                                <li><p>10/2022 - Atualmente</p></li>
+                            </ul>                             
+                        </div>            
                     </article>
                 </div>
 
             </div> 
+                <div class="ref-title"><h2>Habilidades</h2></div>
+                <div class="conteiner-icons">
+                    <div>
+                        <img src="imgs/logo-html-5-512.png" class="icon2">
+                        <p>Html5</p>
+                    </div>
+                    <div>
+                        <img src="imgs/logo-css-3-512.png" class="icon2">
+                        <p>Css</p>
+                    </div>
+                    <div>
+                        <img src="imgs/logo-javascript-512.png" class="icon2">
+                        <p>JavaScript</p>
+                    </div>           
+                </div>  
 
-            <div class="ref-title">
-                <h2>Habilidades</h2>
-                
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>  
+        </div>
+
+        <div class="projetos-recentes-conteiner" id="portfolio">
+            <div class="ref-title"><h2>Projetos Recentes</h2></div>
+
+            <div class="card">
+                <div class="image"></div>
+                <div class="content">
+                <a href="#">
+                    <span class="title">
+                    title
+                    </span>
+                </a>
             
+                <p class="desc">
+                   descrição
+                </p>
+            
+
+                </div>
             </div>
-  
-            </ul>
+        </div> 
+        
+        <div class="contato" id="contato">
+            <div class="ref-title"><h2>Contato</h2></div>
+
+            <div class="conteiner-contato">
+                <h2>Entre em Contato</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </div>
 
-        <h2>Projetos Recentes</h2>
-        <p>Aqui estão alguns dos meus projetos recentes:</p>
-        <ul>
-            <li><a href="#">Projeto 1</a></li>
-            <li><a href="#">Projeto 2</a></li>
-            <li><a href="#">Projeto 3</a></li>
-
-        </ul>
 
 
-        <button onclick="mostrarConteudo(0)" class="button"></button>
-        <button onclick="mostrarConteudo(1)" class="button"></button>
-        <button onclick="mostrarConteudo(2)" class="button"></button>
 
-        <div class="conteudo" id="conteudo1">
-        Conteúdo 1
-        </div>
-        <div class="conteudo" id="conteudo2">
-        Conteúdo 2
-        </div>
-        <div class="conteudo" id="conteudo3">
-        Conteúdo 3
-        </div>
-
-<script>
-function mostrarConteudo(numero) {
-  // Esconder todos os conteúdos
-  var conteudos = document.getElementsByClassName("conteudo");
-  for (var i = 0; i < conteudos.length; i++) {
-    conteudos[i].style.display = "none";
-  }
-  
-  // Mostrar o conteúdo correspondente ao botão clicado
-  var conteudoSelecionado = document.getElementById("conteudo" + (numero + 1));
-  conteudoSelecionado.style.display = "block";
-}
-</script>    
     </main>
 
     <footer>
