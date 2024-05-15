@@ -164,7 +164,6 @@ main{
     display: flex;
     height: 30%;
     margin-top: 2.5em;
-    gap: 1em;
     padding: 0.2em;
     align-items: center;
     justify-content: space-around;
@@ -176,6 +175,7 @@ main{
     border: solid 1px rgb(56,90,100);
     border-radius: 5px;
     color: white;
+    margin:1em;
 }
 .a-foto{
     width: 80%;
