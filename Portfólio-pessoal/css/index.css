@@ -28,6 +28,9 @@ li{
 .logo{
     width: 100%;
 }
+.logo2{
+    width: 20%;
+}
 .menu{
     display: inline-flex;
     list-style:none;
@@ -192,15 +195,12 @@ main{
     padding: 0.1em;
 }
 .button{
-    height: 1em;
-    width: 1em;
-    border-radius: 50%;
+    padding: 0.5em;
     background-color:rgb(0,147,128);
     border: none;
+    border-radius: 5px;
 }
 .button:hover{
-    width: 1.1em;
-    height: 1.1em;
     cursor: pointer;
 }
 .conteiner-formacao{
@@ -271,14 +271,19 @@ main{
 
 }
 .projetos-recentes-conteiner{
-    height: 36em;
+    height: 34em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .card {
-    max-width: 300px;
+    width: 30%;
     border-radius: 0.5rem;
     background-color: #fff;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 4px 10px rgba(0, 0, 0, 0.05);
     border: 1px solid transparent;
+    margin-bottom: 2em;
+
   }
   
   .card a {
@@ -293,7 +298,21 @@ main{
     object-fit: cover;
     width: 100%;
     height: 150px;
-    background-color: rgb(56,90,100);
+  }
+  .image1{
+    background-image: url("../imgs/acolher-e-cuidar\ thumb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .image2{
+    background-image: url("../imgs/residencial-montenegro-thumb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .image3{
+    background-image: url("../imgs/cronometro-thumb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .title {
@@ -307,9 +326,15 @@ main{
     margin-top: 0.5em;
     color: #6B7280;
     font-size: 0.875em;
-    line-height: 1.25em;
+    line-height: 1.5em;
   }
-  
+  .button-conteiner{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
 
   .conteiner-contato {
     max-width: 500px;
@@ -352,10 +377,10 @@ main{
  
   
 footer {
-    background-color: rgb(55,52,53);
-    color: #fff;
+    background-color: white;
     text-align: center;
     padding: 10px 0;
     width: 100%;
+    margin-top: 1em;
 
 }
