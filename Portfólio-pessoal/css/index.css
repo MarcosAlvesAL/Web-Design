@@ -429,7 +429,7 @@ li{
 }
 
 /* Estilos para smartphones em modo paisagem e tablets (de 481px a 768px) */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) {
   /* smartphones em modo paisagem e tablets */
   body{
     padding: 1em;
