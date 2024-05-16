@@ -18,20 +18,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d1ea27adc1.js" crossorigin="anonymous"></script>
+    <script src="js/menbar.js" defer></script>
 
 </head>
 <body>
 
-    <nav>
-        <ul class="menu">
-            <li><a href="#inicio"><img src="../Portfólio-pessoal/imgs/logo.png" class="logo" alt="Marcos Alves"></a></li>
-            <li><a href="#sobremim">Sobre mim</a></li>
-            <li><a href="#formacao">Formação</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>          
-                        
-   
+    <nav class="top-header clearfix">
+        <div class="img_btn">
+            <a href="#inicio"><img src="../Portfólio-pessoal/imgs/logo.png" class="top-header-logo" alt="Marcos Alves"></a>
+            <button onclick="menuBar()" class="botao"><i class="fa-solid fa-list-ul fa-rotate-by" style="color: #009380; --fa-rotate-angle: 0.147128deg;""></i></button>  
+        </div>
+
+        <div class="top-nav" id="button_menu">
+            <ul class="top-nav-ul">          
+                <li class="nav-link"><a href="#sobremim" class="teste">Sobre mim</a></li>
+                <li class="nav-link"><a href="#formacao">Formação</a></li>
+                <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
+                <li class="nav-link "><a href="#contato">Contato</a></li>            
+            </ul>                       
+        </div>
     </nav>
 
     <main>
@@ -46,9 +52,6 @@
             <div class="banner-foto">    
                 <img src="../Portfólio-pessoal/imgs/teste.png" class="foto" alt="Marcos Alves"></a>
             </div>  
-
-
-
         </section>
 
         <div class="conteiner-scrow">
@@ -239,7 +242,7 @@
     </main>
 
     <footer>
-        <span><a href="#inicio"><img src="../Portfólio-pessoal/imgs/logo.png" class="logo2" alt="Marcos Alves"></a></span>
+        <span><a href="#inicio"><img src="../Portfólio-pessoal/imgs/logo.png" class="logof" alt="Marcos Alves"></a></span>
     </footer>
 </body>
 </html>
