@@ -814,7 +814,7 @@ footer {
 }
 
 /* Estilos para tablets em modo paisagem e desktops pequenos (de 769px a 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px){
   /* tablets em modo paisagem e desktops pequenos */
 }
 
