@@ -28,6 +28,10 @@ li{
     padding: 0;
     width: 100%;
 }
+a{
+    margin: 0;
+    padding: 0;
+}
 .logo{
     width: 80%;
 }
@@ -73,7 +77,7 @@ li{
     margin: 0;
     padding: 0;
     background-color: white;
-    width: 100%;
+
 }
 .top-header-logo{
     width: 18em;
@@ -870,6 +874,7 @@ footer {
         gap:1em;
         align-items: center;
         justify-content: center;    
+        padding: 1em;
     }
     .icon2{
         width: 70%;
@@ -883,6 +888,9 @@ footer {
     .logof{
         width: 40%;
     }
+    .contato{
+    padding: 0 6em;
+}
 
 }
 
@@ -898,14 +906,24 @@ footer {
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    padding: 0.2em 0;
+    padding: 1em 0;
 }
+.top-header-logo{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.a-link{
+    width: 17em;
+}
+
 .top-nav-ul{
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 1em;
     text-align: center;
@@ -922,7 +940,7 @@ footer {
     width: 10em;
 }
   .top-header-logo{
-    width: 80%;
+    width: 70%;
   }
   body{
     padding: 0;
@@ -933,6 +951,7 @@ footer {
   .conteiner{
     display: grid;
     grid-template-columns: 1fr 1fr; 
+    height: 80vh;
   }
     .nav-link a{
     padding: 0.5em;
@@ -940,12 +959,7 @@ footer {
 .banner-foto{
     width: 85%;
 }
-.conteiner-scrow{
-    display: flex;
-}
-.scrow-text{
-    width: 7em;
-}
+
 .text-dec{
     border-left: solid 3px black;
     padding: 2em;
@@ -975,12 +989,11 @@ footer {
 .projetos-recentes-conteiner{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1em;
+    padding: 2em;
 }
 .contato{
     padding: 0 12em;
 }
-
 .card {
     width: 100%;
     margin-bottom: 2em;
@@ -988,31 +1001,18 @@ footer {
   .logof{
     width: 25%;
 }
+.cont-formacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1em;
+    align-items: center;
+    justify-content: center;    
+    padding: 2em 1em;
 }
-
-
-
-
-@media screen and (min-width: 1200px) {
-  /* TVs ou telas de alta resolução */
-  .contato{
-    padding: 0 20em;
+.projetos-recentes-conteiner{
+    padding: 0 2em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .cont-curso::before{
+.cont-curso::before{
     content: " ";
     position: absolute;
     top: -7px;
@@ -1036,6 +1036,49 @@ footer {
 .conteiner-formacao{
     position: relative;
 }
+.icon2{
+    width: 30%;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+  /* TVs ou telas de alta resolução */
+  .top-header{
+    justify-content:space-around;
+
+  }
+  .top-header-logo{
+    width: 100%;
+    margin: 0;
+  }
+  .a-link{
+    width: 20em;
+  }
+  .contato{
+    padding: 0 20em;
+}
+.main{
+    padding: 0 1em;
+}
+.conteiner{
+    height: 80vh;
+}
+.foto{
+    width: 80%;
+}
+.logof{
+    width: 20%;
+}
+.projetos-recentes-conteiner{
+
+    align-items: center;
+}
+
+
 
 
 }
