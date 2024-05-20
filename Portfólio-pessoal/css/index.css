@@ -71,6 +71,7 @@ a{
 #topBtn:hover {
     background-color: rgb(56,90,100);
 }
+
 @media screen and (max-width: 480px) {
   /* dispositivos móveis */
   .top-nav{
@@ -222,6 +223,9 @@ main{
     font-size: 1.3em;
     color: rgb(56,90,100);
 }
+.link-to-me2{
+    margin: 1em;
+}
 
 .scrow-icon{
     width: 5%;
@@ -294,6 +298,9 @@ main{
     margin:1em;
     text-align: center;
     text-decoration: none;
+}
+.link-to-me2{
+    margin: 1em;
 }
 .link-to-me:hover{
     background-color: rgb(0,147,128);
@@ -690,7 +697,7 @@ main{
 }
 .link-to-me{
     background-color:rgb(56,90,100);
-    padding: 1em;
+    padding: 0.5em;
     width: 80%;
     text-align: center;
     border: solid 1px grey;
@@ -700,6 +707,10 @@ main{
     text-align: center;
     text-decoration: none;
     box-sizing: content-box;
+
+}
+.link-to-me2{
+    margin: 1em;
 }
 .link-to-me:hover{
     background-color: rgb(0,147,128);
@@ -887,6 +898,9 @@ footer {
     }
     .link-to-me{
         width:60%;
+    }
+    .link-to-me2{
+        margin: 1em;
     }
     .cont-formacao{
         display: grid;
@@ -1097,7 +1111,9 @@ footer {
 
     align-items: center;
 }
-
+.link-to-me2{
+    margin: 1em;
+}
 
 
 
