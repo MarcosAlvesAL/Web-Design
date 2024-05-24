@@ -69,13 +69,30 @@
     <section class="formulario">
     <h1> Teste Formulario </h1>
     <form action="teste.js">
-        <p><label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required placeholder="Digite seu nome">
         </p>
-        <p><label for="isobrenome">Sobrenome: </label> 
-            <input type="text" name="sobrenome" id="isobrenome">
+        <p>
+            <label for="isobrenome">Sobrenome: </label> 
+            <input type="text" name="sobrenome" id="isobrenome" required placeholder="Digite seu sobrenome">
         </p>
+        <p>
+            <label for="iusu">Usuario: </label> 
+            <input type="text" name="usu" id="iusu" required placeholder="Digite seu usuario">
+        </p>
+        <p>
+            <label for="isen">Senha: </label> 
+            <input type="password" name="sen" id="isen" required placeholder="Digite sua senha">
+        </p>
+        <p>
+            <label for="idata">Data: </label> 
+            <input type="date" name="data" id="idata">
+        </p>
+
+
         <p><input type="submit" value="Enviar"></p>
+        <p><input type="reset" value="Limpar"></p>
     </form>
     </section>  
 
