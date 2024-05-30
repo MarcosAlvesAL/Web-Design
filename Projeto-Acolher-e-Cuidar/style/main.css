@@ -78,7 +78,7 @@ img{
 
 
 .hero{
-    height: 90vh;
+    height: 88vh;
     padding: 40px 20px;
     text-align: center;
     display: flex;
@@ -248,42 +248,12 @@ img{
 }
 
 
-.laptop-slider{
-    background-color: #242a2c;
-    padding: 80px 0;
-    margin: auto;
-    width: 100%;
-    overflow: auto;
-    text-align: center;
-}
-
-
-.slideshow figure{
-    display: inline-block;
-}
-
-.laptop-slider img{
-    margin: 0 -40px;
-}
 
 
 .quote-container{
     background-color: rgb(3,128,183);
     padding: 50px 0;
     border-bottom: 12px solid rgb(3,128,183);
-}
-
-.quote-slideshow h2{
-    color: white;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: normal;
-}
-
-.quote-slideshow figcaption{
-    color: white;
-    font-size: 18px;
-    text-align: center;
 }
 
 
@@ -293,15 +263,19 @@ img{
     color: #454e51;
     font-size: 14px;
 }
-
 .footer__links li{
     list-style: none;
+    margin-bottom: 0.5em;
 }
 .footer__links a{
     color: #454e51;
     display: block;
     font-weight: 600;
     text-decoration: none;
+}
+.footer__links a:hover{
+    color: white;
+
 }
 
 .footer__logo{

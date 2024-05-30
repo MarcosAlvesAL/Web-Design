@@ -76,16 +76,16 @@ img{
 
 
 .content{
-    background: #f8f9f9;
-    padding: 5em 0 80px;
+    background: white;
+    padding: 5.5em 0 80px;
     border-top: 1px solid #e3e3e3;
 }
 
 .content h3{
-    color: #737c85;
+    color: rgb(3,128,183);
     font-size: 21px;
     padding-top: 40px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .content p{
     color: #929da5;
@@ -131,28 +131,16 @@ img{
     font-weight: 400;
     text-align: center;
 }
-
+.container-maps{
+    text-align: center;
+}
 
 
 .quote-container{
     background-color: rgb(3,128,183);
-    padding: 50px 0;
+    padding: 1.5em;
     border-bottom: 12px solid rgb(3,128,183);
 }
-
-.quote-slideshow h2{
-    color: white;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: normal;
-}
-
-.quote-slideshow figcaption{
-    color: white;
-    font-size: 18px;
-    text-align: center;
-}
-
 
 .footer{
     background-color: #242a2c;
@@ -163,12 +151,17 @@ img{
 
 .footer__links li{
     list-style: none;
+    margin-bottom: 0.5em;
 }
 .footer__links a{
     color: #454e51;
     display: block;
     font-weight: 600;
     text-decoration: none;
+}
+.footer__links a:hover{
+    color: white;
+
 }
 
 .footer__logo{
@@ -210,25 +203,13 @@ img{
     .header__nav a{
         background: white;        
     }
-    
-    
-    .people-cards{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 30px;
-    }
-    
-    
+            
     .content .container{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
-    }
-    
-    .last-articles__thumbs{
-        grid-template-columns: repeat(6, 1fr);
-    }
-    
+    }  
+
     .footer .container{
         display: flex;
     }
