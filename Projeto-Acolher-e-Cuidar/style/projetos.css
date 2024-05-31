@@ -105,12 +105,12 @@ a{
 
 .people-cards{
     margin-top: 0.1em;
-    padding: 0 3em;
+    padding: 0 2em;
     
 }
 
 .people-cards__card{
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     border: 1px solid #dbe1e7;
 }
 

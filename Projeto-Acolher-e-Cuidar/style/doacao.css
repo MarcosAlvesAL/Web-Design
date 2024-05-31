@@ -73,25 +73,29 @@ img{
     border: none;
     font-size: 14px;
 }
-
-
 .content{
-    background: white;
-    padding: 5.5em 0 80px;
+    background: #f8f9f9;
+    padding: 3em 0 3em;
     border-top: 1px solid #e3e3e3;
 }
-
 .content h3{
-    color: rgb(3,128,183);
+    color: #737c85;
     font-size: 21px;
     padding-top: 40px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .content p{
     color: #929da5;
     font-size: 14px;
     word-spacing: 3px;
 }
+.pix{
+    padding: 1em 1em;
+}
+.pix p{
+    color: rgb(3,128,183);
+}
+
 .button{
     padding: 15px 40px;
     border-radius: 3px;
@@ -100,6 +104,8 @@ img{
     font-size: 15px;
     display: inline-block;
     transition: background .5s;
+    text-align: center;
+
 }
 .button:hover{
     background-color: #929da5;
@@ -108,39 +114,8 @@ img{
     background-color: rgb(3,128,183);  
     color: white;
     margin-right: 1em;
-    margin: 0.1em 1em 0.1em 0;
-}
-.button-secundary{
-    background-color: #455357;
-    color: white;
-}
+    margin: 0.1em;
 
-.last-articles{
-
-}
-
-.last-articles__title{
-    background-color: rgb(3,128,183);
-    padding: 5px 0;
-
-}
-
-.last-articles__title h2{
-    font-size: 24px;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 400;
-    text-align: center;
-}
-.container-maps{
-    text-align: center;
-}
-
-
-.quote-container{
-    background-color: rgb(3,128,183);
-    padding: 1.5em;
-    border-bottom: 12px solid rgb(3,128,183);
 }
 
 .footer{
@@ -149,7 +124,6 @@ img{
     color: #454e51;
     font-size: 14px;
 }
-
 .footer__links li{
     list-style: none;
     margin-bottom: 0.5em;
@@ -177,7 +151,6 @@ img{
     .logo-text{
         width: 30%;
         box-sizing: border-box;
-
     }
     
     .header__btnMenu{
@@ -204,13 +177,19 @@ img{
     .header__nav a{
         background: white;        
     }
-            
+       
+   
+    .content{
+        padding-top: 5em;
+    }
+    
     .content .container{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
-    }  
-
+    }
+    
+       
     .footer .container{
         display: flex;
     }
