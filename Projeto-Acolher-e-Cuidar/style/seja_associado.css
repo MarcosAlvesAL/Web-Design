@@ -8,7 +8,6 @@ img{
     max-width: 100%;
 }
 .container{
-    padding-top: 5em;
     margin-right: auto;    
     margin-left: auto;
     padding-left: 1.5em;
@@ -74,35 +73,35 @@ img{
     border: none;
     font-size: 14px;
 }
-
-
-
-
-
+.hero{
+    padding-top:  4em;
+}
+.hero__title{
+    color: rgb(3,128,183);
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.6em;
+   
+}
 
 .people-cards{
-    margin-top: 0.1em;
-    padding: 0 2em;
-
+    margin-bottom: 2.4em;
     
 }
 
 .people-cards__card{
-    margin-bottom: 3em;
-    border: 1px solid #dbe1e7;
-
+    outline: 3px solid rgb(3,128,183);
+    outline-offset: -3px;
+    margin-bottom: 2em;
 
 }
-
-.people-cards__card:hover{
-    outline: 5px solid rgb(3,128,183);
-    outline-offset: -5px;
+.people-cards__card a{
+    text-decoration: none;
 }
 
-.people-cards__card:hover .people-cards__title,
-.people-cards__card:hover .people-cards__text{
-    color:  rgb(3,128,183);;
-}
 
 .people-cards__image{
     width: 100%;
@@ -114,103 +113,39 @@ img{
 
 }
 .people-cards__title{
-    color: #737c85;
+    color: black;
     font-size: 21px;
     font-weight: normal;
     margin-top: 0;
+    border-bottom: solid 2px rgb(3,128,183);
 }
 
 .people-cards__text{
-    color: #929da5;
+    color: black;
     font-size: 14px;  
     margin-top: 0;  
 }
 
-
-
-.content{
-    background: #f8f9f9;
-    padding: 20px 0 80px;
-    border-top: 1px solid #e3e3e3;
-}
-
-.content h3{
-    color: #737c85;
-    font-size: 21px;
-    padding-top: 40px;
-    font-weight: 400;
-}
-.content p{
-    color: #929da5;
-    font-size: 14px;
-    word-spacing: 3px;
-}
 .button{
     padding: 15px 40px;
     border-radius: 3px;
     text-decoration: none;
     font-weight: 600;
     font-size: 15px;
-    display: inline-block;
+    display: block;
     transition: background .5s;
     text-align: center;
+    margin: auto;
 
 }
 .button:hover{
-    background-color: #929da5;
+    background-color: rgb(3,128,183);
+    color: white;
 }
 .button-primary{
-    background-color: rgb(3,128,183);  
-    color: white;
-    margin-right: 1em;
-    margin: 0.1em;
+    background-color: #455357; 
+    color:white;
 
-}
-.button-secundary{
-    background-color: #455357;
-    color: white;
-
-
-}
-
-.last-articles{
-
-}
-
-.last-articles__title{
-    background-color: rgb(3,128,183);
-    padding: 5px 0;
-
-}
-
-.last-articles__title h2{
-    font-size: 24px;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-
-.last-articles__thumbs{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-auto-rows: auto;
-    grid-gap: 0;
-    padding: 0 0.3em 0.3em 0.1em;
-}
-.last-articles__thumbs img{
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: solid 2px white;
-}
-
-
-
-
-.quote-container{
-    background-color: rgb(3,128,183);
-    padding: 50px 0;
-    border-bottom: 12px solid rgb(3,128,183);
 }
 
 
@@ -279,6 +214,10 @@ img{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 30px;
+    }
+    .people-cards__card{
+        margin-bottom: 0em;
+    
     }
     
     
