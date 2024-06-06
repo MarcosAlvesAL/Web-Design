@@ -93,37 +93,31 @@ img{
     margin: auto;
     
 }
-
 .people-cards__card{
-    outline: 3px solid rgb(3,128,183);
-    outline-offset: -3px;
+    outline: 2px solid #455357;
+    outline-offset: -2px;
     margin-bottom: 2em;
+    padding: 2em 0.5em;
 
 }
 .people-cards__card a{
     text-decoration: none;
 }
-
-
 .people-cards__image{
     width: 100%;
 }
-
 .people-cards__content{
     text-align: center;
     padding: 10px 25px 10px;
 
 }
 .people-cards__title{
-    color: white;
+    color:rgb(3,128,183);
     font-size: 21px;
     font-weight: normal;
     margin-top: 0;
-    border-bottom: solid 2px rgb(3,128,183);
-    
-    background-color: #455357; 
+    border-bottom: solid 2px #455357; 
 }
-
 .people-cards__text{
     color: black;
     font-size: 14px;  
@@ -143,11 +137,12 @@ img{
 
 }
 .button:hover{
-    background-color: rgb(3,128,183);
+    background-color: #455357; 
+    
     color: white;
 }
 .button-primary{
-    background-color: #455357; 
+    background-color: rgb(3,128,183);
     color:white;
 
 }
@@ -217,7 +212,7 @@ img{
     }
 
     .people-cards{
-        padding: 6em 0 9em 0;
+        padding: 4.5em 0 7.5em 0;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 30px;
