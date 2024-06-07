@@ -75,7 +75,7 @@ img{
 }
 
 .content{
-    padding: 8em 2em 2em;
+    padding: 8em 0em 2em;
     border-top: 1px solid #e3e3e3;
 }
 
@@ -126,7 +126,7 @@ img{
 }
 
 .conteiner-contato {
-    padding: 0 2em;
+    padding: 0;
 }
 .form-group {
     margin-bottom: 20px;
@@ -209,7 +209,9 @@ img{
     .header__nav a{
         background: white;        
     }
-    
+    .conteiner-contato {
+        padding: 0 2em;
+    }
        
     
     .content .container{
