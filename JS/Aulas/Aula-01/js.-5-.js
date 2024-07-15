@@ -4,7 +4,7 @@ let n2 = parseInt(prompt('Digite outro numero de 1 a 10'));
 
 // verificar se o usuario colocou um numero igual a 0 ou maior que 10
 
-if ( ( n1 > 10 || n2 > 10 ) || ( n1 == 0 || n2 == 0 ) ){
+if ( ( n1 > 10 || n2 > 10 ) || ( n1 == 0 || n2 == 0 ) || ( isNaN(n1) == true || isNaN(n2) == true ) ){
     alert('DIGITE APENAS NUMEROS DE 1 A 10');
 } else { // se tiver tudo ok, calcular a media dos dois numeros
     let media = (n1 + n2) / 2;
