@@ -1,28 +1,34 @@
-// oedir para o usuario digitar um numero de 0 a 6
+function digiteNumero(){
+    // oedir para o usuario digitar um numero de 0 a 6
+let numeroSolicitado = parseInt( prompt('Digite um número de 1 a 6') );
 // se for diferente de 0 e 6, aparecer o erro na tela
-
-
-switch(){
-    case 1:
+if ( numeroSolicitado > 6 || numeroSolicitado < 0 ) {
+    alert('Digite apenas numeros entre 0 e 6');
+} else if ( isNaN(numeroSolicitado) == true ){
+    alert('Digite apenas os números válidos');
+} else {
+    switch(numeroSolicitado){
+        case 1:
+            alert('Domingo!');
+            break;
+        case 2:
+            alert('Segunda!');
+            break;
+        case 3:
+            alert('Terça!');
+            break;
+        case 4:
+            alert('Quarta!');
+            break;
+        case 5:
+            alert('Quinta!');
+            break;
+        case 6:
+            alert('Sexta!');
+            break;
+        case 7:
+            alert('Sabado!');
+            break;
+    }
 }
-// se o numero for 0
-// mostrar domingo
-
-// se o numero for 1 
-// mostrar segunda
-
-//se o numero for 2 
-//mostrar terça
-
-//se o numero for 3
-//mostrar quarta
-
-//se o numero for 4 
-//mostrar quinta
-
-//se o numero for 5
-//mostrar sexta
-
-//se o numero for 6
-//mostrar sabado
-
+}
