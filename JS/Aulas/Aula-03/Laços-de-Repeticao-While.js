@@ -10,8 +10,9 @@ if (isNaN(numero) == true){
     let contador = 0
     // usar a função while
     while(contador <= 1000){
-    document.write('&nbsp &nbsp &nbsp &nbsp' + numero + ' x ' + contador + ' = ' + numero * contador + '<br>');
-    contador++
+        document.write('&nbsp &nbsp &nbsp &nbsp' + numero + ' x ' + contador + ' = ' + numero * contador + '<br>');
+        contador++
+
     }
 document.write('fim do programa');
 }
