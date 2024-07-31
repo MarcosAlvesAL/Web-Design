@@ -3,7 +3,7 @@
 // Dificultando o desafio, coloque diferentes tipos de dados dentro do array
 
 // Array mista
-const arrayNumeros = [1, 4, [], 6, undefined, 12, 5, false, 7, 8, 3, null, 13, 'teste', 55, true,78];
+const arrayNumeros = [1, 4, [], 6, undefined, 12, 5, false, 'Joana', 8, 3, null, 13, 'teste', 55, true,78];
 // Soma é o valor final que eu espero somar
 let soma = 0
 console.log('Soma Inicia em: ' + soma)
@@ -25,3 +25,12 @@ for (i = 0 ; i < arrayNumeros.length ; i++){
 } 
 
 console.log('Resultado Final: ' + soma);
+
+// mostre numa tela qual é o valor que está no meio ( aproximado )
+let teste = arrayNumeros.length / 2
+teste = parseInt(teste);
+let objMeio = 0;
+
+objMeio = arrayNumeros[teste];
+
+console.log('Esse numero é teste: ' + objMeio);
