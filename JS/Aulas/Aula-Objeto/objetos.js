@@ -33,3 +33,27 @@ const pessoa = {
 // console.log(`O Endereço do ${pessoa.nome} é ${pessoa.endereco.rua} Número ${pessoa.endereco.numero}`);
 
 // loop for in serve para interagir com um objeto
+
+//for (let prop in carro){
+  //  console.log(prop);
+// console.log(carro[prop]);
+//}
+
+// Pergunte em um prompt o nome e o email do usuario e depois armazene esses valores num objeto e mostre esse objeto no console
+
+let nomeUsuario = prompt('Digite seu Nome');
+
+let emailUsuario = prompt('Digite seu Email');
+
+
+
+
+const user = {
+    nomeUsuario,
+    emailUsuario
+}
+
+for (let prop in user){
+    console.log(prop);
+    console.log(user[prop]);
+}
