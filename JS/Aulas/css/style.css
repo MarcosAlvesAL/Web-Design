@@ -63,3 +63,15 @@ h1,h2,h3,h4,h5,h6,p{
     text-align: center;
     font-size: 18px;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
