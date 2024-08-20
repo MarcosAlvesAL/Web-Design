@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: auto;
+            text-align: center;
+            padding: 5em;
+            background-color: gray;
+        }
+        .area{
+            background-color: black;
+            color: white;
+            width: 30%;
+            margin: auto;
+            padding: 1em 0 2em 0;
+            
+        }
+        .teste{
+            background-color: white;
+            color: blue;
+            width: 30%;
+            margin: 1em auto;
+            padding: 1em;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="area">
+        <p>Valor do Raio</p>
+        <input type="number" id="raio" placeholder="Digite o Valor do Raio">
+        <br><br>
+        <button onclick="calcularAreaCircunferencia()">Calcular Area da Circunferencia</button>
+    </div>
+    
+    <div id="output">
+
+    </div>
+    <script src="js.js"></script> 
+</body>
+</html>
