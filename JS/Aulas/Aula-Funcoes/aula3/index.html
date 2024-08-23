@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+</body>
+<script>
+    // crie uma função chamada calcular() que receba dois numeros e uma string com um dos seguintes valores
+    // + - * ou /
+
+    let solN1 = parseFloat(prompt("Digite um número"));
+    let solOperador = prompt("Digite um dos Operadores: '+', '-', '*' ou '/'");
+    let solN2 = parseFloat(prompt("Digite o segundo número"));
+    
+    let calculo = 0
+
+
+    function calcular(n1, n2, str){
+        switch (str){
+            case "+":
+                calculo = n1 + n2;
+                return calculo
+        
+            case "-":
+                calculo = n1 - n2;
+                return calculo       
+                
+            case "*":
+                calculo = n1 * n2;
+                return calculo
+                
+            case "/":
+                calculo = n1 / n2;
+                return calculo
+            
+            default: 
+                return null;
+
+            }
+
+    }
+
+    function confPar(n1){
+        n1 = parseFloat(n1);
+        return n1 % 2 === 0
+
+    }
+
+    let teste = console.log(confPar(7));
+
+
+</script>
+</html>
