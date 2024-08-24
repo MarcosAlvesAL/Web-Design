@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="output">
+
+    </div>
+
+
+    <script src="js.js"></script>
+    <script>
+        try{
+            output.innerHTML += `O valor do Calculo da Aréa do Retangulo é:  ${calcularAreaRetangulo(2,4)}<br>`;
+        } catch (e) {
+            output.innerHTML += `teste + ${e.message}<br>`;
+        };
+
+        try{
+            output.innerHTML += `O valor do Calculo da Aréa do Triangulo é:  ${calcularAreaTriangulo(2,"f")}<br>`;
+        } catch (e) {
+            output.innerHTML += `${e.message}<br>`;
+        };
+
+        try{
+            output.innerHTML += `O valor do Calculo da Aréa da Circunferência é:  ${calcularAreaCircunferencia(5)}`;
+        } catch (e) {
+            output.innerHTML += `teste + ${e.message}<br>`;
+        };         
+       
+
+    </script>     
+    
+</body>
+</html>
