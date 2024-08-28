@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // functions declarations
+
+        function ola1(nome){
+            console.log('ola de function declaration ' + nome);
+        };
+
+        const ola2 = function (nome){
+            console.log('ola de function expression ' + nome);
+        }
+        // é possivel colocar as funções dentro de um array e executar, chamando pelo indice no array
+        
+        const arr = [ola1, ola2, function(){console.log('ola de function anonima dentro de array executada ')}]
+
+        arr[0]("teste");
+
+
+        // arrow function 
+        const ola3 = (nome) => {
+            console.log('ola de arrow function ' + nome);
+        }
+        ola3("joaquim");
+
+        // se for função de uma unica linha também pode ser feito da forma abaixo
+        // os dados apos a arrow utilizavam o metodo return, nesse caso não precisa
+        const soma = (n1, n2) => n1 + n2
+        // return n1+ n2
+
+        console.log(soma(6,6))
+
+
+
+    </script>
+</body>
+</html>
