@@ -36,7 +36,21 @@
         // return n1+ n2
 
         console.log(soma(6,6))
-
+        // testes
+        const produto = {
+            nome: "Caneta",
+            estoque: 43,
+            comprar(n){
+                if (n > this.estoque){
+                    console.log(`Estoque insuficiente, Estoque atual: ${this.estoque}`);
+                } else{
+                    return this.estoque - n;
+                    console.log(`Venda realizada, estoque atual: ${this.estoque}`);
+                }
+            }           
+        }        
+        let comprarProduto = produto.comprar(45);
+        comprarProduto
 
 
     </script>
