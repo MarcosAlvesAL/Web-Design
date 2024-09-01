@@ -5,13 +5,24 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0;
     padding: 0;
 }
-.conteiner{
-
+.tema{
+    text-align: right ;
+    margin-right: 1em;
+}
+.tema button{
+    padding: 0.5em;
+}
+.conteiner-white{
+    background-color: white;
+}
+.conteiner-black{
+    background-color: black;
 }
 .conteiner-flex{
     display: flex;
     align-items: center;
-    height: 100vh;
+    justify-content: center;
+    height: 90vh;
     margin: 0;
 
 }
