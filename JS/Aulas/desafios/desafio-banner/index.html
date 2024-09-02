@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: black;
+        }
+        .conteiner-banner{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            height: 90vh;
+            padding: 0;
+            margin: 0;
+            color: white;
+        }
+        .banner{            
+            height: 60vh;
+            width: 60%;
+            outline: solid 1px blue;
+        }
+        .banner-img01{
+            background-image: url("imgs/img-01.webp");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            height: 60vh;
+            width: 60%;
+            outline: solid 1px white;
+        }
+        .banner-img02{
+            background-image: url("imgs/img-02.webp");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            height: 60vh;
+            width: 60%;
+            outline: solid 1px white;
+        }
+        .banner-img03{
+            background-image: url("imgs/img-03.png");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            height: 60vh;
+            width: 60%;
+            outline: solid 1px white;
+        }
+        .c_botao{
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner-banner">
+        <div class="banner-img01" id="banner"></div>        
+    </div>
+    <button class="c_botao" id="bottao" onclick="botaoProximo()">Próximo</button>
+
+    <script>
+        const banner = document.getElementById("banner");
+        //criar uma função que ao ser chamada, apague a classe anterior e insira uma nova classe
+        function botaoProximo(){
+            if (banner.classList.contains("banner-img01") ){
+                banner.classList.remove("banner-img01");
+                banner.classList.add("banner-img02");
+            } else {            
+                    if (banner.classList.contains("banner-img02") ){
+                        banner.classList.remove("banner-img02");
+                        banner.classList.add("banner-img03");                                
+            }       else {
+                        if (banner.classList.contains("banner-img03") ){
+                            banner.classList.remove("banner-img03");
+                            banner.classList.add("banner-img01");
+                    }}
+            }
+        
+        
+        }
+
+        //a função também tem que seguir uma sequencia de cliques, para ir para a imagem01 depois imagem02 e depois imagem03
+
+    </script>
+    
+    
+</body>
+</html>
