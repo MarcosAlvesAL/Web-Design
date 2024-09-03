@@ -27,30 +27,39 @@
             outline: solid 1px blue;
         }
         .banner-img01{
-            background-image: url("imgs/img-01.webp");
+            background-image: url("imgs/img-01.jpg");
             background-size:cover;
             background-repeat: no-repeat;
-            background-position: bottom;
+            background-position: center;
             height: 60vh;
-            width: 60%;
+            width: 30%;
             outline: solid 1px white;
         }
         .banner-img02{
-            background-image: url("imgs/img-02.webp");
+            background-image: url("imgs/img-02.jpg");
             background-size:cover;
             background-repeat: no-repeat;
-            background-position: bottom;
+            background-position:  center;
             height: 60vh;
-            width: 60%;
+            width: 30%;
             outline: solid 1px white;
         }
         .banner-img03{
-            background-image: url("imgs/img-03.png");
+            background-image: url("imgs/img-03.jpg");
             background-size:cover;
             background-repeat: no-repeat;
-            background-position: bottom;
+            background-position: center;
             height: 60vh;
-            width: 60%;
+            width: 30%;
+            outline: solid 1px white;
+        }
+        .banner-img04{
+            background-image: url("imgs/img-04.jpg");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 60vh;
+            width: 30%;
             outline: solid 1px white;
         }
         .c_botao{
@@ -72,18 +81,23 @@
             if (banner.classList.contains("banner-img01") ){
                 banner.classList.remove("banner-img01");
                 banner.classList.add("banner-img02");
-            } else {            
+            }   else {            
                     if (banner.classList.contains("banner-img02") ){
                         banner.classList.remove("banner-img02");
                         banner.classList.add("banner-img03");                                
-            }       else {
-                        if (banner.classList.contains("banner-img03") ){
-                            banner.classList.remove("banner-img03");
-                            banner.classList.add("banner-img01");
-                    }}
+            }   else {
+                    if (banner.classList.contains("banner-img03") ){
+                        banner.classList.remove("banner-img03");
+                        banner.classList.add("banner-img04");
+            }   else{
+                    if (banner.classList.contains("banner-img04") ){
+                        banner.classList.remove("banner-img04");
+                        banner.classList.add("banner-img01");
+                }                 
+                }
+                }
+        
             }
-        
-        
         }
 
         //a função também tem que seguir uma sequencia de cliques, para ir para a imagem01 depois imagem02 e depois imagem03
