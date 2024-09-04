@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+.task-list{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
