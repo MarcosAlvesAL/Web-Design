@@ -4,12 +4,25 @@ body{
     justify-content: center;
     background-color: brown;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6, li {
     margin: 0;
     padding: 0;
+    color: white;
 }
 .task-list{
     width: 400px;
     height: 400px;
     background-color: blue;
+    margin: auto;
+
+}
+.title-task-list{
+    margin: auto;
+    text-align: center;
+    padding: .5em;
+    background-color: white;
+    color: black;
+}
+.task-list h3{
+        color: black;
 }
