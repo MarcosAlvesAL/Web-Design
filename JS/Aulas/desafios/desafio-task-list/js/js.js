@@ -6,5 +6,5 @@ const value = document.getElementById("text-value")
 
 function adicionarItem(){
     let adicionar = value.value;
-    lista.innerHTML += `<li> ${adicionar} </li>`
+    lista.innerHTML += `<li><span class="task-list-item">${adicionar}</span><button onclick="removerItem">Remover Item</button></li> `
 }

@@ -1,20 +1,57 @@
-body{
+.body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: brown;
+    background-color: beige;
 }
-h1,h2,h3,h4,h5,h6, li {
+h1,h2,h3,h4,h5,h6, ul, li, p {
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
 }
-.task-list{
+ul{
+    padding: 1em;
+    box-sizing: border-box;
+    width: 100%;
+}
+li{
+    display: flex;
+    justify-content:space-between;
+    background-color: bisque;
+    margin: 0.2em 0;
+    list-style-type: disc;
+    box-sizing: border-box;
+    width: 100%;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+
+}
+
+.button-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    gap: 0.2em;
+}
+.conteiner-list{  
+
     width: 400px;
     height: 400px;
-    background-color: blue;
+    background-color:azure;
+
+}
+.task-list{
+
     margin: auto;
 
+}
+.task-list-item{
+    flex: 1;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    white-space: normal;
+    list-style: none;
 }
 .title-task-list{
     margin: auto;
