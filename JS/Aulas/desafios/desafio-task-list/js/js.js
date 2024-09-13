@@ -1,10 +1,21 @@
-const lista = document.getElementById("lista");
+const lista = document.getElementById("ul-window");
 const value = document.getElementById("text-value")
 
 
 
 
-function adicionarItem(){
+function adicionarTarefa(){
     let adicionar = value.value;
-    lista.innerHTML += `<li><span class="task-list-item">${adicionar}</span><button onclick="removerItem">Remover Item</button></li> `
+    lista.innerHTML += `<li>
+                            <section>
+                                <p>${adicionar}</p>                                           
+                            </section>
+                            <div>
+                                <p onclick="removerTarefa()">-</p>
+                            </div>
+                        </li>`
+             
 }
+function removerTarefa(){
+    lista.innerHTML = 
+}       

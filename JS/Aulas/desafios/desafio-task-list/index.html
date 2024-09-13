@@ -8,35 +8,17 @@
     
 </head>
 <body>
-    <section class="button-sec">
-        <input type="text" id="text-value">
-        <button onclick="adicionarItem()">Adicione um item</button>
-    </section>
+    <div class="input-task">
+        <input type="text" placeholder="Digite aqui sua Tarefa" id="text-value">
+        <button onclick="adicionarTarefa()">Ok</button>
+    </div>
 
-    <section class="body">
+    <div class="window">
 
-        <section class="conteiner-list">
-
-            <div class="task-list">
-
-                <div class="title-task-list">
-                    <h3>Lista de Tarefas</h3>
-                </div>
-
-                <div class="">
-                    <ul class="list" id="lista">
-
-                    </ul>
-                </div>
-
-            </div>
-
-
-        </section>
-
-    </section>
-    
-
+        <ul class="ul-window" id="ul-window">
+       
+        </ul>
+    </div>
     <script src="js/js.js"></script>
     
 </body>

@@ -1,65 +1,61 @@
-.body{
+.input-task{
+    margin: 1em 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: beige;
+    gap: 0.5em;
 }
-h1,h2,h3,h4,h5,h6, ul, li, p {
-    margin: 0;
-    padding: 0;
-    color: black;
-}
-ul{
-    padding: 1em;
-    box-sizing: border-box;
-    width: 100%;
-}
-li{
-    display: flex;
-    justify-content:space-between;
-    background-color: bisque;
-    margin: 0.2em 0;
-    list-style-type: disc;
-    box-sizing: border-box;
-    width: 100%;
-    word-wrap: break-word; 
-    overflow-wrap: break-word;
-
-}
-
-.button-sec{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    gap: 0.2em;
-}
-.conteiner-list{  
-
-    width: 400px;
-    height: 400px;
-    background-color:azure;
-
-}
-.task-list{
-
+.window{
     margin: auto;
-
+    height: 400px;
+    width: 400px;
+    background-color: rgb(111, 114, 114);
+    padding: 1em 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.task-list-item{
-    flex: 1;
-    word-wrap: break-word; 
-    overflow-wrap: break-word;
-    white-space: normal;
+.ul-window{
+    height: 95%;
+    width: 95%;
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
-.title-task-list{
-    margin: auto;
-    text-align: center;
-    padding: .5em;
-    background-color: white;
-    color: black;
+.ul-window li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+    box-sizing: border-box;
+    background-color: aqua;
+    margin: 0 0 1em 0; 
 }
-.task-list h3{
-        color: black;
+.ul-window li section{
+    width: 80%;
+    margin: 0;
+}
+.ul-window li section p{
+    word-wrap: break-word; /* Garante que o texto quebre linhas automaticamente */
+    overflow-wrap: break-word; /* Alternativa moderna */
+    white-space: normal;
+    box-sizing: border-box;
+    margin: 0;
+}
+.ul-window li div{
+    width: 10%;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ul-window li div p{
+    margin: 0;
+}
+
+.ul-window li div:hover {
+    background-color:  rgb(48, 237, 237);
+    cursor: pointer;
+    
 }
